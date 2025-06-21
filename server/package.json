@@ -21,7 +21,9 @@
   "scripts": {
     "dev": "tsx watch server.ts",
     "typecheck": "tsc --noEmit",
-    "build": "tsc && tsc-alias"
+    "build": "rm -rf dist && tsc && tsc-alias",
+    "start": "node dist/server.js",
+    "postbuild": "echo 'Build completed successfully'"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
