@@ -1,0 +1,45 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "upwork trial project",
+  "keywords": [
+    "upwork",
+    "upwork-trial-project"
+  ],
+  "homepage": "https://github.com/Zevitech-Development/upwork-trial-project-01#readme",
+  "bugs": {
+    "url": "https://github.com/Zevitech-Development/upwork-trial-project-01/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zevitech-Development/upwork-trial-project-01.git"
+  },
+  "license": "ISC",
+  "author": "Zevitech",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc && tsc-alias"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.23",
+    "@types/node": "^24.0.3",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
