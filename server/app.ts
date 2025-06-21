@@ -4,13 +4,13 @@ import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 
-import { AppErrorHandler } from "./middlewares/app-error-handler.ts";
+import { AppErrorHandler } from "./middlewares/app-error-handler";
 
 import {
   TestRouteFunction,
   UnknownRouteFunction,
-} from "./controllers/basic-controllers.ts";
-import StaffRouter from "./routes/staff-routes.ts";
+} from "./controllers/basic-controllers";
+import StaffRouter from "./routes/staff-routes";
 
 export const app = express();
 

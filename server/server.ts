@@ -1,8 +1,8 @@
 import "dotenv/config";
 
-import { app } from "./app.ts";
+import { app } from "./app";
 
-import ConnectDB from "./databases/mongoose-database.ts";
+import ConnectDB from "./databases/mongoose-database";
 
 const PORT = process.env.PORT || 8000;
 
